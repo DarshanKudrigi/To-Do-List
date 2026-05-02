@@ -52,7 +52,7 @@ function FilterBar({
           aria-label="Toggle dark / light mode"
         >
           <span className="theme-toggle-icon">
-            {theme === 'light' ? '🌞' : '🌙'}
+            {theme === 'light' ? '🌞' : ' 🌉'}
           </span>
           <span className="theme-toggle-label">
             {theme === 'light' ? 'Light' : 'Dark'} mode
